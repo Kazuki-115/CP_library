@@ -8,9 +8,12 @@ using ll =long long;
 
 
 
-#include "lazy_segmemt tree.hpp"
+#include "lazy_segtree.hpp"
 #include "mint998.hpp"
 
+
+
+using mint=modint<998244353>;
 
 
 

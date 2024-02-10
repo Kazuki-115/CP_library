@@ -1,5 +1,6 @@
-#pragma once
-#include <bits/stdc++.h> 
+#include <string>
+#include <vector>
+#include <cstdint>
 
 class rolling_hash {
 public:
