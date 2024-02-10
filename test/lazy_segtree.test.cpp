@@ -8,8 +8,8 @@ using ll =long long;
 
 
 
-#include "lazy_segtree.hpp"
-#include "mint998.hpp"
+#include "../data_structure/lazy_segtree.hpp"
+#include "../math/mint998.hpp"
 
 
 
