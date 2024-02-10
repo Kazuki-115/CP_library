@@ -20,5 +20,7 @@ int main() {
         cnt += binary_search(ALL(s), t_i);
     }
     cout << cnt << endl;
-    return 0;
+
+
 }
+
