@@ -1,5 +1,6 @@
 {
 "example.test.cpp": "2024-02-10 15:50:49 +0900",
+"test/extGCD.test.cpp": "2024-02-10 23:01:10 +0900",
 "test/lazy_segtree.test.cpp": "2024-02-10 15:23:43 +0900",
 "test/rolling_hash.test.cpp": "2024-02-10 15:23:07 +0900",
 "test/yosupo_z_algorithm.test.cpp": "2024-02-10 15:48:26 +0900"
