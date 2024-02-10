@@ -17,6 +17,7 @@ using mint=modint<998244353>;
 
 
 
+
  struct Info {
     using typeNode=mint;
     using typeLazy=pair<mint,mint>;
