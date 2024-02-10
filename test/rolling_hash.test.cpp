@@ -7,6 +7,7 @@ using namespace std;
 using ll=long long;
 
 
+
 int main() {
     string T,P;
     cin>>T>>P;
