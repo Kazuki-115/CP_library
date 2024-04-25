@@ -4,6 +4,15 @@
 using namespace std;
 
 
+/*
+使い方
+Data : 各頂点が持つもの
+T：各辺が持つもの
+F1：頂点同士をマージする時のマージの仕方
+F2：子から親へと情報が移動するときの変化
+
+*/
+
 template< typename Data, typename T >
 struct ReRooting {
  
