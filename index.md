@@ -12,6 +12,9 @@ data:
   - name: math
     pages:
     - icon: ':heavy_check_mark:'
+      path: math/PollardRho.hpp
+      title: math/PollardRho.hpp
+    - icon: ':heavy_check_mark:'
       path: math/extGCD.hpp
       title: math/extGCD.hpp
     - icon: ':heavy_check_mark:'
@@ -59,6 +62,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: test/lazy_segtree.test.cpp
       title: test/lazy_segtree.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: test/pollardRho.test.cpp
+      title: test/pollardRho.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/rerooting.test.cpp
       title: test/rerooting.test.cpp
