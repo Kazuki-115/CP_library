@@ -7,6 +7,9 @@ data:
       path: data_structure/FordFullkerson.hpp
       title: data_structure/FordFullkerson.hpp
     - icon: ':heavy_check_mark:'
+      path: data_structure/dinic.hpp
+      title: data_structure/dinic.hpp
+    - icon: ':heavy_check_mark:'
       path: data_structure/lazy_segtree.hpp
       title: data_structure/lazy_segtree.hpp
     - icon: ':heavy_check_mark:'
@@ -62,6 +65,9 @@ data:
     - icon: ':heavy_check_mark:'
       path: test/HLD.test.cpp
       title: test/HLD.test.cpp
+    - icon: ':heavy_check_mark:'
+      path: test/dinic.test.cpp
+      title: test/dinic.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/extGCD.test.cpp
       title: test/extGCD.test.cpp
