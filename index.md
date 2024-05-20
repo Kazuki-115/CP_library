@@ -3,6 +3,9 @@ data:
   libraryCategories:
   - name: data_structure
     pages:
+    - icon: ':x:'
+      path: data_structure/FordFullkerson.hpp
+      title: data_structure/FordFullkerson.hpp
     - icon: ':heavy_check_mark:'
       path: data_structure/lazy_segtree.hpp
       title: data_structure/lazy_segtree.hpp
@@ -53,6 +56,9 @@ data:
       title: example.test.cpp
   - name: test
     pages:
+    - icon: ':x:'
+      path: test/FordFullkerson.test.cpp
+      title: test/FordFullkerson.test.cpp
     - icon: ':heavy_check_mark:'
       path: test/HLD.test.cpp
       title: test/HLD.test.cpp
