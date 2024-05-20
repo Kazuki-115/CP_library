@@ -11,10 +11,10 @@ data:
   _verificationStatusIcon: ':x:'
   attributes:
     '*NOT_SPECIAL_COMMENTS*': ''
-    PROBLEM: https://judge.yosupo.jp/problem/lca
+    PROBLEM: https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_6_A
     links:
-    - https://judge.yosupo.jp/problem/lca
-  bundledCode: "#line 1 \"test/FordFullkerson.test.cpp\"\n#define PROBLEM \"https://judge.yosupo.jp/problem/lca\"\
+    - https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_6_A
+  bundledCode: "#line 1 \"test/FordFullkerson.test.cpp\"\n#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_6_A\"\
     \n\n#line 2 \"data_structure/FordFullkerson.hpp\"\n\n\ntemplate< typename flow_t\
     \ >\nstruct FordFulkerson {\n  struct edge {\n    int to;\n    flow_t cap;\n \
     \   int rev;\n    bool isrev;\n    int idx;\n  };\n\n  vector< vector< edge >\
@@ -39,17 +39,18 @@ data:
     \nint main() {\n    ios::sync_with_stdio(false);\n  cin.tie(0);\n\nll U,V;cin>>U>>V;\n\
     FordFulkerson<ll> g(U);\n\nfor(ll i=0;i<V;i++) {\n  ll u,v,c;cin>>u>>v>>c;\n \
     \ g.add_edge(u,v,c);\n}\n\ncout<<g.max_flow(0,U-1)<<endl;\n}\n\n"
-  code: "#define PROBLEM \"https://judge.yosupo.jp/problem/lca\"\n\n#include \"../data_structure/FordFullkerson.hpp\"\
-    \n\n#include<bits/stdc++.h>\nusing namespace std;\nusing ll=long long;\n\n\n\n\
-    \nint main() {\n    ios::sync_with_stdio(false);\n  cin.tie(0);\n\nll U,V;cin>>U>>V;\n\
-    FordFulkerson<ll> g(U);\n\nfor(ll i=0;i<V;i++) {\n  ll u,v,c;cin>>u>>v>>c;\n \
-    \ g.add_edge(u,v,c);\n}\n\ncout<<g.max_flow(0,U-1)<<endl;\n}\n\n"
+  code: "#define PROBLEM \"https://judge.u-aizu.ac.jp/onlinejudge/description.jsp?id=GRL_6_A\"\
+    \n\n#include \"../data_structure/FordFullkerson.hpp\"\n\n#include<bits/stdc++.h>\n\
+    using namespace std;\nusing ll=long long;\n\n\n\n\nint main() {\n    ios::sync_with_stdio(false);\n\
+    \  cin.tie(0);\n\nll U,V;cin>>U>>V;\nFordFulkerson<ll> g(U);\n\nfor(ll i=0;i<V;i++)\
+    \ {\n  ll u,v,c;cin>>u>>v>>c;\n  g.add_edge(u,v,c);\n}\n\ncout<<g.max_flow(0,U-1)<<endl;\n\
+    }\n\n"
   dependsOn:
   - data_structure/FordFullkerson.hpp
   isVerificationFile: true
   path: test/FordFullkerson.test.cpp
   requiredBy: []
-  timestamp: '2024-05-21 00:06:06+09:00'
+  timestamp: '2024-05-21 00:10:02+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: test/FordFullkerson.test.cpp

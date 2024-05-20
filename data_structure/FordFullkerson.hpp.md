@@ -54,7 +54,7 @@ data:
   isVerificationFile: false
   path: data_structure/FordFullkerson.hpp
   requiredBy: []
-  timestamp: '2024-05-20 23:58:30+09:00'
+  timestamp: '2024-05-21 00:10:02+09:00'
   verificationStatus: LIBRARY_ALL_WA
   verifiedWith:
   - test/FordFullkerson.test.cpp
