@@ -36,20 +36,20 @@ data:
     \        cout << i << \"->\" << e.to << \" (flow: \" << rev_e.cap << \"/\" <<\
     \ e.cap + rev_e.cap << \")\" << endl;\n      }\n    }\n  }\n};\n\n#line 4 \"test/FordFullkerson.test.cpp\"\
     \n\n#include<bits/stdc++.h>\nusing namespace std;\nusing ll=long long;\n\n\n\n\
-    int main() {\n    ios::sync_with_stdio(false);\n  cin.tie(0);\n\nll U,V;cin>>U>>V;\n\
-    FordFulkerson<ll> g(V);\n\nfor(ll i=0;i<V;i++) {\n  ll u,v,c;cin>>u>>v>>c;\n \
-    \ g.add_edge(u,v,c);\n}\n\ncout<<g.max_flow(0,U-1)<<endl;\n}\n\n\n"
+    \nint main() {\n    ios::sync_with_stdio(false);\n  cin.tie(0);\n\nll U,V;cin>>U>>V;\n\
+    FordFulkerson<ll> g(U);\n\nfor(ll i=0;i<V;i++) {\n  ll u,v,c;cin>>u>>v>>c;\n \
+    \ g.add_edge(u,v,c);\n}\n\ncout<<g.max_flow(0,U-1)<<endl;\n}\n\n"
   code: "#define PROBLEM \"https://judge.yosupo.jp/problem/lca\"\n\n#include \"../data_structure/FordFullkerson.hpp\"\
     \n\n#include<bits/stdc++.h>\nusing namespace std;\nusing ll=long long;\n\n\n\n\
-    int main() {\n    ios::sync_with_stdio(false);\n  cin.tie(0);\n\nll U,V;cin>>U>>V;\n\
-    FordFulkerson<ll> g(V);\n\nfor(ll i=0;i<V;i++) {\n  ll u,v,c;cin>>u>>v>>c;\n \
-    \ g.add_edge(u,v,c);\n}\n\ncout<<g.max_flow(0,U-1)<<endl;\n}\n\n\n"
+    \nint main() {\n    ios::sync_with_stdio(false);\n  cin.tie(0);\n\nll U,V;cin>>U>>V;\n\
+    FordFulkerson<ll> g(U);\n\nfor(ll i=0;i<V;i++) {\n  ll u,v,c;cin>>u>>v>>c;\n \
+    \ g.add_edge(u,v,c);\n}\n\ncout<<g.max_flow(0,U-1)<<endl;\n}\n\n"
   dependsOn:
   - data_structure/FordFullkerson.hpp
   isVerificationFile: true
   path: test/FordFullkerson.test.cpp
   requiredBy: []
-  timestamp: '2024-05-20 23:58:30+09:00'
+  timestamp: '2024-05-21 00:06:06+09:00'
   verificationStatus: TEST_WRONG_ANSWER
   verifiedWith: []
 documentation_of: test/FordFullkerson.test.cpp
